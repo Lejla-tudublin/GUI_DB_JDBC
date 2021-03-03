@@ -62,7 +62,7 @@ public class SimpleDBConnect {
                         + resultSet.getString(3) + "\t"
                         + resultSet.getString(4));
             }*/
-
+// use metadata
             while (resultSet.next()) {
                 System.out.println("");
                 for (int i = 1; i <= numberOfColumns; i++) {
